@@ -32,7 +32,7 @@ main{
     width: 90vw;
     margin: auto;
     padding: 5rem;
-    height: 80vh;
+    height: 90vh;
 }
 .user-space{
     position: relative;
@@ -40,8 +40,39 @@ main{
 .nome-info{
     position: absolute;
     bottom: 1rem;
-    left: 0.5rem;
-    padding: 0.3rem;
-    background-color: rgba(128, 128, 128, 0.24);
+    left: 0rem;
+    padding: 0.3rem 1rem;
+    background-color: rgba(128, 128, 128, 0.438);
     color: white;
+}
+
+/* Footer */
+.lower{
+    height: 10vh;
+    background-color: rgb(77, 77, 77);
+    color: white;
+}
+.communication{
+    font-size: 1.3rem;
+    padding: 0.5rem;
+    display: flex;
+    gap: 1.5rem;
+    margin: auto;
+    height: 100%;
+}
+.mic{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+.mic-text{
+    text-align: center;
+    position: relative;
+}
+.mic-text p{
+    padding-top: 0.3rem;
+    font-size: 1rem;
+}
+.arrow{
+    font-size: 0.8rem;
 }
