@@ -35,8 +35,9 @@ main{
 /* Opzioni di visualizzazione */
 .upper{
     position: absolute;
-    right: 10px;
+    right: 20px;
     top: 10px;
+    z-index: 100;
 }
 .options button{
     background: grey;
@@ -53,14 +54,15 @@ main{
 .users{
     display: flex;
     flex-wrap: wrap;
-    gap: 14px;
+    gap: 3rem;
+    justify-content: center;
 }
 .users-container{
-    width: 90vw;
+    /* width: 90vw; fa comparire la scrollbar non sul lato estremo destro della pagina */
     margin: auto;
     padding: 5rem;
     height: 90vh;
-    overflow: scroll;
+    overflow: auto; /*scroll fa comparire una barra in basso, anche se non serve*/
 }
 .user-space{
     position: relative;
