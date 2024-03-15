@@ -66,10 +66,12 @@ main{
 }
 .user-space{
     position: relative;
+    line-height: 0; /*Toglie lo spazio sotto da ogni card a causa dell'immagine*/
 }
+/*Questo non funziona ma lo tengo in codice per ricordarmi di questo problema in futuro
 .user-space img{
-    width: calc(100% - 0.875rem); /*con questo funziona il gap di 14*/
-}
+     width: calc(100% - 0.875rem); con questo funziona il gap di 14, ulteriore problema se lo tengo le immagini non prendono tutta la card
+}*/
 .nome-info{
     position: absolute;
     bottom: 1rem;
